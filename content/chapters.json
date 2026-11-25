@@ -1,0 +1,232 @@
+[
+  {
+    "slug": "foundations",
+    "title": "前端、后端与全栈应用基础",
+    "short": "理解系统",
+    "description": "从浏览器里的界面，到服务器、数据库与网络入口，建立共同的技术语言。",
+    "group": "前置知识",
+    "number": 1,
+    "sections": [
+      {
+        "id": "section-1-1",
+        "title": "1.1 前端基础概念：网页三要素、开发框架与构建工具"
+      },
+      {
+        "id": "section-1-2",
+        "title": "1.2 后端基础概念：运行环境、服务端框架、数据库与反向代理"
+      },
+      {
+        "id": "section-1-3",
+        "title": "1.3 全栈架构串联：公开展示站点与核心业务系统的协同"
+      }
+    ],
+    "pages": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "discussion": 1
+  },
+  {
+    "slug": "communication",
+    "title": "前后端通信方式与模块化后端",
+    "short": "连接前后端",
+    "description": "理解 API、文件传输、流式事件，以及模块之间清晰的职责边界。",
+    "group": "前置知识",
+    "number": 2,
+    "sections": [
+      {
+        "id": "section-2-1",
+        "title": "2.1 结构化通信概念：API、REST 与 tRPC"
+      },
+      {
+        "id": "section-2-2",
+        "title": "2.2 大文件与长耗时通信：预签名链接、异步受理与 SSE"
+      },
+      {
+        "id": "section-2-3",
+        "title": "2.3 后端架构串联：四通道接口与模块化单体"
+      }
+    ],
+    "pages": [
+      5,
+      6,
+      7
+    ],
+    "discussion": 2
+  },
+  {
+    "slug": "agent-runtime",
+    "title": "异步任务队列、Agent 运行时与隔离沙箱",
+    "short": "让 Agent 可靠运行",
+    "description": "拆开任务调度、智能体循环与隔离执行，理解一次任务的完整生命周期。",
+    "group": "工程实践",
+    "number": 3,
+    "sections": [
+      {
+        "id": "section-3-1",
+        "title": "3.1 队列调度概念：工作进程、三层记录、幂等键与租约栅栏"
+      },
+      {
+        "id": "section-3-2",
+        "title": "3.2 智能体核心概念：Workflow、Agent 与 RAG"
+      },
+      {
+        "id": "section-3-3",
+        "title": "3.3 运行时架构串联：Worker、Agent Runner 与隔离沙箱"
+      }
+    ],
+    "pages": [
+      7,
+      8,
+      9,
+      10
+    ],
+    "discussion": 3
+  },
+  {
+    "slug": "security",
+    "title": "多租户权限隔离、存储配额与资产保护",
+    "short": "守住系统边界",
+    "description": "梳理身份、权限、配额与专有资产保护，让团队建立可执行的安全边界。",
+    "group": "工程实践",
+    "number": 4,
+    "sections": [
+      {
+        "id": "section-4-1",
+        "title": "4.1 身份与权限概念：凭证保护、租户层级与对象级鉴权"
+      },
+      {
+        "id": "section-4-2",
+        "title": "4.2 存储计量机制：共享对象存储池与配额预占模型"
+      },
+      {
+        "id": "section-4-3",
+        "title": "4.3 服务端出境边界：响应脱敏与自研 Skill 保护"
+      }
+    ],
+    "pages": [
+      10,
+      11,
+      12
+    ],
+    "discussion": 4
+  },
+  {
+    "slug": "delivery",
+    "title": "容器化持续交付与数据持久化",
+    "short": "把系统持续交付",
+    "description": "从 Git 提交到容器部署，理解持久化、兼容迁移与灾备恢复。",
+    "group": "工程实践",
+    "number": 5,
+    "sections": [
+      {
+        "id": "section-5-1",
+        "title": "5.1 交付基础概念：Git、CI/CD、容器镜像与不可变摘要"
+      },
+      {
+        "id": "section-5-2",
+        "title": "5.2 持久化与容灾概念：挂载卷、兼容迁移与 RPO/RTO"
+      },
+      {
+        "id": "section-5-3",
+        "title": "5.3 部署架构串联：上线流水线与发布期磁盘容量核算"
+      }
+    ],
+    "pages": [
+      12,
+      13,
+      14
+    ],
+    "discussion": 5
+  },
+  {
+    "slug": "performance",
+    "title": "全链路性能排查与开源架构对比",
+    "short": "用证据定位问题",
+    "description": "沿前端、接口与异步任务逐层观测，并对照成熟开源系统做出取舍。",
+    "group": "工程实践",
+    "number": 6,
+    "sections": [
+      {
+        "id": "section-6-1",
+        "title": "6.1 性能观测概念：首屏指标、数据库索引与全链路 Trace"
+      },
+      {
+        "id": "section-6-2",
+        "title": "6.2 架构演进对照：Dify、n8n 与 GitLab 的拆分边界"
+      }
+    ],
+    "pages": [
+      14,
+      15
+    ],
+    "discussion": 6
+  },
+  {
+    "slug": "team-workflow",
+    "title": "规约驱动开发与多仓库团队协作",
+    "short": "建立团队协作方式",
+    "description": "以 PRD、Spec 和纵向切片对齐工作，用清晰的仓库边界协调多人开发。",
+    "group": "协作与思考",
+    "number": 7,
+    "sections": [
+      {
+        "id": "section-7-1",
+        "title": "7.1 研发协同概念：PRD、技术规约（Spec）与纵向切片"
+      },
+      {
+        "id": "section-7-2",
+        "title": "7.2 代码仓组织概念：Monorepo、主子分仓与三方合并"
+      }
+    ],
+    "pages": [
+      16,
+      17
+    ],
+    "discussion": 7
+  },
+  {
+    "slug": "working-with-ai",
+    "title": "面向编程 Agent 的工程护栏与人机分工",
+    "short": "与 AI 一起开发",
+    "description": "通过工程护栏、独立验证和决策记录，思考人与编程 Agent 各自的责任。",
+    "group": "协作与思考",
+    "number": 8,
+    "sections": [
+      {
+        "id": "section-8-1",
+        "title": "8.1 工程护栏概念：Harness、AGENTS.md、CLI/MCP 与独立工作树"
+      },
+      {
+        "id": "section-8-2",
+        "title": "8.2 验证与决策边界：防范同源盲区、TDD 与架构决策记录"
+      }
+    ],
+    "pages": [
+      17,
+      18
+    ],
+    "discussion": 8
+  },
+  {
+    "slug": "glossary",
+    "title": "核心术语速查表与参考来源",
+    "short": "术语与参考",
+    "description": "回查关键概念、缩写与原文参考来源。",
+    "group": "附录",
+    "number": null,
+    "sections": [
+      {
+        "id": "references",
+        "title": "参考来源"
+      }
+    ],
+    "pages": [
+      18,
+      19
+    ],
+    "discussion": 9
+  }
+]

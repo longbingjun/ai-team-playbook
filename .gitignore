@@ -1,0 +1,8 @@
+dist/
+node_modules/
+.DS_Store
+tools/pdf-blocks.json
+*.zip
+qa/
+__pycache__/
+*.pyc
